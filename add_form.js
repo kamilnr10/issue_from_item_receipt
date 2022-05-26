@@ -5,9 +5,9 @@
  */
  define(['N/log', 'N/ui/serverWidget', 'N/record', 'N/search'], function(log, ui, record, search) {
     function addQuoteToItem(itemsArray) {
-        var arrayOfWords = [];
-        for (var i = 0; i < itemsArray.length; i++) {
-            var txt = "'";
+        let arrayOfWords = [];
+        for (let i = 0; i < itemsArray.length; i++) {
+            let txt = "'";
             txt += itemsArray[i] + "'";
             arrayOfWords.push(txt);
         }
