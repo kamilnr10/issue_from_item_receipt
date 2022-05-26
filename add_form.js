@@ -45,7 +45,7 @@
         });
         //log.debug({title: 'numLines: ', details: numLines})
         
-        for (var i = 0; i < numLines; i++) {
+        for (let i = 0; i < numLines; i++) {
             const internalid_item = IRobj.getSublistValue({
                 sublistId: 'item',
                 fieldId: 'item',
